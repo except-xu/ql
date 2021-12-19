@@ -2,7 +2,7 @@
 种豆助力
 cron 33 1 * * * jd_bean.js
 */
-const $ = new Env('京东种豆得豆');
+const $ = new Env('京东种豆得豆助力');
 //Node.js用户请在jdCookie.js处填写京东ck;
 //ios等软件用户直接用NobyDa的jd cookie
 let jdNotify = true;//是否开启静默运行。默认true开启
