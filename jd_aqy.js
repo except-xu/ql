@@ -1,6 +1,7 @@
 // version v0.0.1
 // create by BlueSkyClouds
 // detail url: https://github.com/BlueskyClouds/My-Actions
+// http://vip.iqiyi.com/level.html，F12控制台执行console.log(document.cookie)电脑版有效期三个月
 const exec = require('child_process').execSync
 const fs = require('fs')
 const download = require('download')
