@@ -597,10 +597,10 @@ window = {};
     RSAUtils.setMaxDigits(130)
 })(window);
 
-function nm(a, aa) {
+function nm(mod, password) {
     var exp = '010001';
-    var publicKey = window.RSAUtils.getKeyPair(exp, '', a);
-    var txtKey = window.RSAUtils.encryptedString(publicKey, encodeURIComponent(aa));
+    var publicKey = window.RSAUtils.getKeyPair(exp, '', mod);
+    var txtKey = window.RSAUtils.encryptedString(publicKey, encodeURIComponent(password));
     return txtKey
 }
 exports.nm = nm;
