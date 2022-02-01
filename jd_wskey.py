@@ -525,10 +525,10 @@ if __name__ == '__main__':
                         # dd = serch_ck(ws)[2]
                         # ql_disable(dd)
                         text = "账号: {0} WsKey可能失效, 未禁用Cookie".format(wspin)
-                        try:
-                            send('WsKey转换脚本', text)
-                        except:
-                            logger.info("通知发送失败")
+                        # try:
+                            # send('WsKey转换脚本', text)
+                        # except:
+                            # logger.info("通知发送失败")
                 else:
                     logger.info(str(wspin) + "账号有效")
                     eid = return_serch[2]
