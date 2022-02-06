@@ -111,9 +111,6 @@ for (let i in productsArr) {
   }
   if(message){
     $.msg($.name, ``, `${message}`);
-    if ($.isNode()){
-      await notify.sendNotify(`${$.name}`, `${message}`);
-    }
   }
 })()
     .catch((e) => $.logErr(e))
