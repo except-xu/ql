@@ -1,7 +1,7 @@
 /*
 55 * * * * jd_cart.js
 */
-let jdSignUrl = 'https://jd.smiek.tk/jdcleancatr_21102717' // 算法url
+let jdSignUrl = 'https://api.jds.codes/sign' // 算法url
 let cleancartRun = 'true'
 let cleancartProducts = '*@&@'
 
