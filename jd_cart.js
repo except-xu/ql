@@ -64,7 +64,7 @@ cleancartProducts = $.isNode() ? (process.env.gua_cleancart_products ? process.e
 
 if (!jdPandaToken) {
     console.log('请填写Panda获取的Token,变量是gua_cleancart_PandaToken');
-	return;
+  return;
 }
 let productsArr = []
 let cleancartProductsAll = []
@@ -216,9 +216,6 @@ async function run(){
       }
     }else{
       console.log(data)
-    }
-    if(msg){
-      message += `【京东账号${$.index}】${$.nickName || $.UserName}\n${msg}\n`
     }
     await $.wait(parseInt(Math.random() * 2000 + 2000, 10))
   }catch(e){
